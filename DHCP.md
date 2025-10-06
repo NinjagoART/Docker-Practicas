@@ -222,7 +222,9 @@ services:
       - netlab_dhcp
     ports: ["2021:22"]
     restart: unless-stopped
-    depends_on: [dhcpd, dns_dhcp]
+    depends_on:
+      - dhcpd
+      - dns_dhcp
 
   pc2:
     image: ubuntu:customdh
@@ -234,8 +236,9 @@ services:
       - netlab_dhcp
     ports: ["2022:22"]
     restart: unless-stopped
-    depends_on: [dhcpd, dns_dhcp]
-
+    depends_on:
+      - dhcpd
+      - dns_dhcp
 networks:
   netlab_dhcp:
     driver: bridge
