@@ -39,7 +39,7 @@
 
 Ejecuta esto en tu **máquina virtual Linux (no dentro de un contenedor):**
 ```bash
-mkdir ~/lab-dhcp && cd ~/lab-dhcp
+cp -r ~/lab-dns ~/lab-dhcp && cd ~/lab-dhcp
 ```
 
 ---
