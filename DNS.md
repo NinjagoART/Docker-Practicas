@@ -235,7 +235,6 @@ docker run -d --name httpd --hostname httpd \
   -p 80:80 nginx:latest
 ```
 
-📸 Capturas del proceso:
 ![](Imagenes/20251005134932.png)
 ![](Imagenes/20251005135024.png)
 ![](Imagenes/20251005141139.png)
