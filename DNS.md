@@ -95,6 +95,21 @@ Creación de las imagenes listo!!
 
 En ambos metodos se requiere los siguientes archivos de configuracion para el dns:
 
+**La estructura de archivos es la siguiente**
+```bash
+/home/sadmin/PC-ssh:
+├── config
+│   ├── external.TU_NOMBRE.osvp
+│   ├── internal.TU_NOMBRE.osvp
+│   └── named.conf
+├── Dockerfile
+└── web
+    └── index.html
+```
+
+# IMPORTANTE QUE SE VEA ASÍ O NO FUNCIONARÁ
+
+
 1. Creamos una carpeta llamada config y los archivos de configuracion de zona:
 
 ```bash
