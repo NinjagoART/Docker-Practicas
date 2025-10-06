@@ -17,7 +17,6 @@
   - Si usaste el metdodo manual:
     ```bash
     docker stop httpd pc1 pc2 dns
-    docker network rm netlab
     ```
 
 ---
