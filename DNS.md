@@ -5,7 +5,7 @@ su -
 usermod -aG docker sadmin
 exit
 ```
-![[Pasted image 20251005123515.png]]
+![[Imagenes/Pasted image 20251005123515.png]]
 
 # Instalacion de un servidor DNS:
 
