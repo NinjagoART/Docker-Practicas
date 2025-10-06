@@ -10,7 +10,7 @@
 | CPU              | 2      |
 | Espacio en disco | 30 GB  |
 | Interfaz de Red  | Bridge |
-|                  |        |
+
 
 Caracteristicas en VirtualBox:
 
