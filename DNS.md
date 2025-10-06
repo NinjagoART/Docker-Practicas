@@ -303,8 +303,25 @@ Ejecuta:
 ```bash
 docker compose up -d
 ```
+---
 
-Capturas:
+## Añadir DNS a maquina host:
+
+### En linux: 
+
+Añade la siguiente línea en el archivo `/etc/resolve.conf` :
+
+```bash
+# Maquina virtual:
+nameserver 10.10.0.2
+#Maquina real (Si usas linux):
+nameserver IP_MAQUINA_VIRTUAL
+```
+
+### En Windows:
+
+**Nota**: Modifica la red en la que te encuentras
+
 ![](Imagenes/20251005140027.png)
 ![](Imagenes/20251005140102.png)
 
