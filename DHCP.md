@@ -131,6 +131,9 @@ view "external" {
 };
 ``` 
 
+---------------
+
+# Escoje alguno de los 2 métodos propuestos
 
 ---------------
 
