@@ -95,6 +95,8 @@ Creación de las imagenes listo!!
 
 En ambos metodos se requiere los siguientes archivos de configuracion para el dns:
 
+
+# ¡¡¡¡IMPORTANTE QUE SE VEA ASÍ O NO FUNCIONARÁ!!!!
 **La estructura de archivos es la siguiente**
 ```bash
 /home/sadmin/PC-ssh:
@@ -106,8 +108,6 @@ En ambos metodos se requiere los siguientes archivos de configuracion para el dn
 └── web
     └── index.html
 ```
-
-# ¡¡¡¡IMPORTANTE QUE SE VEA ASÍ O NO FUNCIONARÁ!!!!
 
 
 1. Creamos una carpeta llamada config y los archivos de configuracion de zona:
