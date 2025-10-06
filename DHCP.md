@@ -10,13 +10,15 @@
 - Haber completado y probado la **práctica de DNS** (el laboratorio anterior).
 - Tener instalado y funcionando **Docker**.
 - Haber detenido el laboratorio anterior si sigue en ejecución:
-  ```bash
-  docker compose -f ~/lab-dns/docker-compose.yml down 2>/dev/null || true
-  ```
-  ```bash
-  docker stop httpd pc1 pc2 dns
-  docker network rm netlab
-  ```
+  - Si usaste docker compose:
+    ```bash
+    docker compose -f ~/lab-dns/docker-compose.yml down 2>/dev/null || true
+    ```
+    - Si usaste el metdodo manual:
+    ```bash
+    docker stop httpd pc1 pc2 dns
+    docker network rm netlab
+    ```
 
 ---
 
