@@ -23,7 +23,7 @@ Para instalar el servicio de DNS requeriremos:
 
 La topología de red es la siguiente:
 
-![[Untitled Diagram.drawio(3).png]]
+![](drawio3.png)
 
 ## Instalación de las imagenes:
 
