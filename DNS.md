@@ -33,7 +33,7 @@ La topología de red es la siguiente:
 docker pull nginx:latest
 docker pull ubuntu/bind9
 ```
-![[Pasted image 20251005123648.png]]
+![](Imagenes/20251005123648.png)
 
 ### Imagen de PCX
 
@@ -428,8 +428,8 @@ nameserver IP_MAQUINA_VIRTUAL
 
 **Nota**: Modifica la red en la que te encuentras
 
-![[Pasted image 20251005140027.png]]
-![[Pasted image 20251005140102.png]]
+![](Imagenes/20251005140027.png)
+![](Imagenes/20251005140102.png)
 
 ---
 ## Verificación
@@ -449,13 +449,13 @@ docker network inspect netlab | grep IPv4Address
 ---
 ## Capturas del proceso:
 
-![[Pasted image 20251005133603.png]]
-![[Pasted image 20251005134754.png]]
-![[Pasted image 20251005133839.png]]
+![](Imagenes/20251005133603.png)
+![](Imagenes/20251005134754.png)
+![](Imagenes/20251005133839.png)
 
 #### Método manual:
 
-![[Pasted image 20251005134932.png]]
-![[Pasted image 20251005135024.png]]
-![[Pasted image 20251005141139.png]]
-![[Pasted image 20251005141315.png]]
+![](Imagenes/20251005134932.png)
+![](Imagenes/20251005135024.png)
+![](Imagenes/20251005141139.png)
+![](Imagenes/20251005141315.png)
