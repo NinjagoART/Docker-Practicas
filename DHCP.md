@@ -25,6 +25,13 @@ Establecer el rango de direcciones IP disponibles (192.168.30.100 - 192.168.30.1
 1. Haremos unas modificaciones al laboratorio, que incluye la red a una macvlan 
 2. Usaremos docker compose apartir de este punto.
 
+## Creamos nuestro estapcio de trabajo:
+```bash
+cd ~
+mkdir DHCP
+cd DHCP
+```
+
 ### Modificaciones al Dockerfile
 
 Modificaremos el dockerfile para hacer que la imagen del contenedor pueda pedir ip por medio de dhcp
