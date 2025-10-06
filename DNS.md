@@ -415,7 +415,7 @@ Y lo ejecutamos con `docker compose up -d`
 
 ### En linux: 
 
-Añade la siguiente línea en el archivo `/etc/resolve.conf` :
+Añade la siguiente línea en el archivo `/etc/resolv.conf` :
 
 ```bash
 # Maquina virtual:
