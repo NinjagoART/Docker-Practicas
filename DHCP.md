@@ -14,7 +14,7 @@
     ```bash
     docker compose -f ~/lab-dns/docker-compose.yml down 2>/dev/null || true
     ```
-    - Si usaste el metdodo manual:
+  - Si usaste el metdodo manual:
     ```bash
     docker stop httpd pc1 pc2 dns
     docker network rm netlab
