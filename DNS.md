@@ -107,7 +107,7 @@ En ambos metodos se requiere los siguientes archivos de configuracion para el dn
     └── index.html
 ```
 
-# IMPORTANTE QUE SE VEA ASÍ O NO FUNCIONARÁ
+# ¡¡¡¡IMPORTANTE QUE SE VEA ASÍ O NO FUNCIONARÁ!!!!
 
 
 1. Creamos una carpeta llamada config y los archivos de configuracion de zona:
